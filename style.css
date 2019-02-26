@@ -1,0 +1,95 @@
+body {
+   font-family: 'Arial', 'Helverica Neue', Helvetica, sans-serif;
+   color: #777;
+   background: #777;
+   width: 960px;
+   font-size: 18px;
+}
+
+Header, Nav, Section, Aside, and Footer {
+   background: #ebebeb;
+}
+
+Article {
+   color: #ebebeb;
+   background: #777;
+   padding: 30px;
+
+ }
+
+  h1 {
+   background: white;
+   color: gray;
+   padding: 15px;
+}
+
+  p {
+   background: white;
+   color: gray;
+   padding: 15px;
+
+  }
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+  color: gray;
+  width: 960px;
+  float: middle;
+  margin-left: 230px;
+}
+
+nav {
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+  color: gray;
+  width: 960px;
+  float: middle;
+  margin-top: 10px;
+  margin-left: 230px;
+}
+
+section {
+  float: left;
+  margin-top: 20px;
+  text-align: center;
+  width: 480px;
+  height: 240px;
+  padding: 40px;
+  left: 231px;
+  position: relative;
+
+}
+
+aside {
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+  height: 320px;
+  width: 450px;
+  position: relative;
+  margin-right: -310px;
+}
+
+   footer {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    color: gray;
+    width: 960px;
+    float: middle;
+    margin-left: 230px;
+    margin-top: -40px;
+   }
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
